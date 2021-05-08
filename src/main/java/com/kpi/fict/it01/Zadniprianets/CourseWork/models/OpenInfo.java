@@ -1,11 +1,18 @@
 package com.kpi.fict.it01.Zadniprianets.CourseWork.models;
 
-import org.graalvm.compiler.core.common.type.ArithmeticOpTable;
-
 public class OpenInfo extends AbstractInfo {
     private String firstName;
     private PersonSex sex;
     private int age;
+    private String aboutMe;
+
+    public String getAboutMe() {
+        return aboutMe;
+    }
+
+    public void setAboutMe(String aboutMe) {
+        this.aboutMe = aboutMe;
+    }
 
     public String getFirstName() {
         return firstName;
