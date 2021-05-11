@@ -1,16 +1,16 @@
 package com.kpi.fict.it01.Zadniprianets.CourseWork.models;
 
-public class CloseInfo extends AbstractInfo{
-    private String lastName;
+public class CloseInfo extends AbstractInfo {
+    private String telegramTag;
     private String email;
     private String phoneNumber;
 
-    public String getLastName() {
-        return lastName;
+    public String getTelegramTag() {
+        return telegramTag;
     }
 
-    public void setLastName(String lastName) {
-        this.lastName = lastName;
+    public void setTelegramTag(String telegrammTag) {
+        this.telegramTag = telegrammTag;
     }
 
     public String getEmail() {

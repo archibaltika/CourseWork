@@ -2,7 +2,7 @@ package com.kpi.fict.it01.Zadniprianets.CourseWork.models;
 
 public class OpenInfo extends AbstractInfo {
     private String firstName;
-    private PersonSex sex;
+    private UserSex sex;
     private int age;
     private String aboutMe;
 
@@ -22,11 +22,11 @@ public class OpenInfo extends AbstractInfo {
         this.firstName = firstName;
     }
 
-    public PersonSex getSex() {
+    public UserSex getSex() {
         return sex;
     }
 
-    public void setSex(PersonSex sex) {
+    public void setSex(UserSex sex) {
         this.sex = sex;
     }
 

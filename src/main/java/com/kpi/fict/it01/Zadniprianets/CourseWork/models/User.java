@@ -2,7 +2,7 @@ package com.kpi.fict.it01.Zadniprianets.CourseWork.models;
 
 import java.util.ArrayList;
 
-public class Person {
+public class User {
     private Application application;
     private ArrayList<Match> matches;
     private String login;
