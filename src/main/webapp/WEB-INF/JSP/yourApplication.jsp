@@ -4,7 +4,7 @@
     <title>Your application</title>
 </head>
 <body>
-<form action="action_form" method="POST">
+<form action="action_form" method="POST" >
     <form action="action_form" method="POST">
         ---Your application---<br/>
         First name: <input name="firstname" type="text" placeholder="John" required/><br/>
