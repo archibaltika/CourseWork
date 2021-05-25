@@ -1,4 +1,5 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <html>
 <head>
     <title>Your application</title>
@@ -29,8 +30,8 @@
         <input type="checkbox" name="sports" value="keyword"> Sports
         <br/>About me:<br/>
         <textarea name="aboutme" rows="10" cols="100"></textarea>
-        <input type="submit"/>
-        <input type="reset">
+        <input type="submit" value="Save"/>
+        <input type="reset" value="Clear all">
     </form>
 </form>
 </body>
