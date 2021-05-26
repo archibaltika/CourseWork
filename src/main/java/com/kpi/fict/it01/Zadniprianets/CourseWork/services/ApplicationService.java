@@ -6,5 +6,6 @@ public class ApplicationService {
     DaoFactory daoFactory;
 
     public ApplicationService(DaoFactory daoFactory) {
+        this.daoFactory = daoFactory;
     }
 }

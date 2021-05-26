@@ -6,5 +6,6 @@ public class MatchService {
     DaoFactory daoFactory;
 
     public MatchService(DaoFactory daoFactory) {
+        this.daoFactory = daoFactory;
     }
 }

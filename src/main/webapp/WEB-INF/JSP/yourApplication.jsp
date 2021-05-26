@@ -5,8 +5,8 @@
     <title>Your application</title>
 </head>
 <body>
-<form action="action_form" method="POST" >
-    <form action="action_form" method="POST">
+<form action="browseApplications.jsp" method="POST" >
+    <form action="browseApplications.jsp" method="POST">
         ---Your application---<br/>
         First name: <input name="firstname" type="text" placeholder="John" required/><br/>
         Last name: <input name="lastname" type="text" placeholder="Hastings" required/><br/>

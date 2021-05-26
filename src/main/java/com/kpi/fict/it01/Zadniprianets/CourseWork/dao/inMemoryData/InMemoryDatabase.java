@@ -10,6 +10,5 @@ public class InMemoryDatabase {
     private Map<UUID, Application> applications;
     private Map<UUID, KeyWord> keywords;
     private Map<UUID, Match> matches;
-
     private Map<UUID, AbstractInfo> infos;
 }

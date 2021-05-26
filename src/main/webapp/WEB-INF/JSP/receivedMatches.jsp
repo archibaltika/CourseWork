@@ -19,6 +19,7 @@
         <th>Phone number</th>
         <th>KeyWords</th>
         <th>About me</th>
+        <th></th>
     </tr>
     <tr>
         <td>Mia</td>
@@ -30,6 +31,7 @@
         <td>+380943254875</td>
         <td>Relationship, Food, Music</td>
         <td>Looking for the love of my life. I love cooking and listening to classical music</td>
+        <td><a href="">Accept</a></td>>
     </tr>
 </table>
 </body>

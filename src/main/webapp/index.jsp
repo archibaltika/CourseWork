@@ -1,1 +1,1 @@
-<% request.getRequestDispatcher("WEB-INF/JSP/loginPage.jsp").forward(request, response);%>
+<% request.getRequestDispatcher("WEB-INF/JSP/browseApplications.jsp").forward(request, response);%>
